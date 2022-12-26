@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(173, 251, 255);
+}
+
+.App h1 {
+    text-align: center;
+    color: rgb(8, 75, 106);
+}
+
+.current-score {
+    text-align: center;
+    color: rgb(8, 75, 106);
+}
+
+.question-card {
+    background-color: rgb(8, 75, 106);
+    padding: 20px;
+    padding-left: 50px;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 12px;
+    height: auto;
+    color: aliceblue;
+}
+
+.question-card ul {
+    list-style: none;
+}
+
+.question-card ul li {
+    border-radius: 12px;
+    border: 2px solid aliceblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    margin: 16px;
+    background-color: rgba(255, 255, 255, 0.207);
+}
+
+.question-card ul li:hover {
+    background-color: rgba(255, 255, 255, 0.399);
+}
+
+.final-results {
+    background-color: rgb(8, 75, 106);
+    text-align: center;
+    width: 65%;
+    margin: 20px auto;
+    border-radius: 12px;
+    color: aliceblue;
+    font-size: 12px;
+    padding: 16px;
+    height: auto;
+}
+
+.final-results button {
+    background-color: rgb(192, 14, 14);
+    border: 2px;
+    border-radius: 50px;
+    color: aliceblue;
+    margin: 8px;
+    padding: 16px;
+    font-weight: bold;
+}
